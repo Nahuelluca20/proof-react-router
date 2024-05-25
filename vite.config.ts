@@ -7,5 +7,5 @@ import {
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
-  plugins: [react(), cloudflareDevProxyVitePlugin(), tsconfigPaths()],
+  plugins: [cloudflareDevProxyVitePlugin(), react(), tsconfigPaths()],
 });

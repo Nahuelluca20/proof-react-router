@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@cloudflare/workers-types": "^4.20240512.0",
     "@react-router/dev": "^0.0.0-experimental-c0856287f",
     "@react-router/server-runtime": "0.0.0-nightly-1974c2661-20240524",
     "isbot": "^5.1.7",
